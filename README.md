@@ -16,7 +16,7 @@ répond aux questions du CEO à partir de ces données.
 - **Tailwind CSS** pour le style
 - **Recharts** pour le graphique de chiffre d'affaires
 - **Express** (serveur local minimal) pour relayer les appels à l'API Anthropic
-- **@anthropic-ai/sdk** — modèle `claude-sonnet-4-20250514`
+- **@anthropic-ai/sdk** — modèle `claude-sonnet-4-6` (`claude-sonnet-4-20250514` n'étant plus disponible)
 
 Aucune authentification, aucune base de données : les données sont des fichiers
 JSON mock statiques.
