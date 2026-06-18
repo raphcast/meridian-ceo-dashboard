@@ -1,0 +1,170 @@
+{
+  "meta": {
+    "total_biens": 28,
+    "date_export": "2026-06-11",
+    "poles": ["Location", "Transaction", "Gestion locative"]
+  },
+  "resume": {
+    "biens_occupes": 19,
+    "biens_vacants": 6,
+    "biens_en_travaux": 2,
+    "biens_en_vente": 1,
+    "taux_occupation": 0.679,
+    "objectif_taux_occupation": 0.85,
+    "loyer_total_mensuel_theorique": 48600,
+    "loyer_total_mensuel_encaisse": 41200
+  },
+  "portefeuille": [
+    {
+      "id": "BIEN-001",
+      "type": "Appartement T3",
+      "adresse": "12 rue des Flamboyants, Saint-Denis",
+      "surface_m2": 72,
+      "loyer_mensuel": 1100,
+      "statut": "occupé",
+      "locataire": "M. Ahmed Soilihi",
+      "debut_bail": "2024-09-01",
+      "fin_bail": "2027-08-31",
+      "rendement_brut": 0.068,
+      "derniere_visite": "2026-01-15"
+    },
+    {
+      "id": "BIEN-002",
+      "type": "Villa F5",
+      "adresse": "8 chemin des Lataniers, Tamarin",
+      "surface_m2": 180,
+      "loyer_mensuel": 3200,
+      "statut": "vacant",
+      "locataire": null,
+      "debut_bail": null,
+      "fin_bail": null,
+      "vacance_depuis": "2026-03-15",
+      "vacance_jours": 88,
+      "rendement_brut": null,
+      "derniere_visite": "2026-04-02"
+    },
+    {
+      "id": "BIEN-003",
+      "type": "Local commercial",
+      "adresse": "45 avenue de la République, Saint-Pierre",
+      "surface_m2": 95,
+      "loyer_mensuel": 2400,
+      "statut": "occupé",
+      "locataire": "SARL Délices Créoles",
+      "debut_bail": "2023-01-01",
+      "fin_bail": "2026-12-31",
+      "rendement_brut": 0.071,
+      "derniere_visite": "2025-11-20",
+      "alerte": "Bail expire dans 6 mois — renouvellement non confirmé"
+    },
+    {
+      "id": "BIEN-004",
+      "type": "Appartement T2",
+      "adresse": "3 impasse des Vacoas, Le Port",
+      "surface_m2": 48,
+      "loyer_mensuel": 780,
+      "statut": "vacant",
+      "locataire": null,
+      "vacance_depuis": "2026-05-01",
+      "vacance_jours": 41,
+      "rendement_brut": null,
+      "derniere_visite": "2026-05-10"
+    },
+    {
+      "id": "BIEN-005",
+      "type": "Appartement T4",
+      "adresse": "17 rue Labourdonnais, Grand-Baie",
+      "surface_m2": 94,
+      "loyer_mensuel": 1650,
+      "statut": "en_travaux",
+      "locataire": null,
+      "travaux_debut": "2026-05-15",
+      "travaux_fin_estimee": "2026-07-01",
+      "budget_travaux": 18500,
+      "derniere_visite": "2026-05-15"
+    },
+    {
+      "id": "BIEN-006",
+      "type": "Villa F4",
+      "adresse": "2 allée des Badamiers, Flic en Flac",
+      "surface_m2": 145,
+      "loyer_mensuel": 2800,
+      "statut": "occupé",
+      "locataire": "Famille Rousseau",
+      "debut_bail": "2025-02-01",
+      "fin_bail": "2028-01-31",
+      "rendement_brut": 0.061,
+      "derniere_visite": "2025-12-10"
+    },
+    {
+      "id": "BIEN-007",
+      "type": "Appartement T2",
+      "adresse": "9 résidence Horizon, Quatre-Bornes",
+      "surface_m2": 52,
+      "loyer_mensuel": 850,
+      "statut": "vacant",
+      "locataire": null,
+      "vacance_depuis": "2026-04-01",
+      "vacance_jours": 71,
+      "rendement_brut": null,
+      "derniere_visite": "2026-04-15"
+    },
+    {
+      "id": "BIEN-008",
+      "type": "Entrepôt",
+      "adresse": "Zone Industrielle La Plaine, Sainte-Suzanne",
+      "surface_m2": 320,
+      "loyer_mensuel": 4100,
+      "statut": "occupé",
+      "locataire": "Import-Export Réunion SARL",
+      "debut_bail": "2022-06-01",
+      "fin_bail": "2027-05-31",
+      "rendement_brut": 0.082,
+      "derniere_visite": "2026-02-20"
+    },
+    {
+      "id": "BIEN-009",
+      "type": "Appartement T3",
+      "adresse": "24 boulevard de la Mer, Saint-Gilles",
+      "surface_m2": 68,
+      "loyer_mensuel": 1400,
+      "statut": "en_vente",
+      "prix_vente": 245000,
+      "mandat_depuis": "2026-03-01",
+      "visites_effectuees": 7,
+      "offres_recues": 1,
+      "derniere_visite_acheteur": "2026-06-05"
+    },
+    {
+      "id": "BIEN-010",
+      "type": "Maison F4",
+      "adresse": "5 rue des Orchidées, Rivière-des-Anguilles",
+      "surface_m2": 110,
+      "loyer_mensuel": 1550,
+      "statut": "occupé",
+      "locataire": "M. Pascal Grondin",
+      "debut_bail": "2024-01-01",
+      "fin_bail": "2027-12-31",
+      "rendement_brut": 0.059,
+      "alerte": "Impayé 2 mois — voir données financières IMP-001",
+      "derniere_visite": "2026-03-08"
+    }
+  ],
+  "alertes_patrimoine": [
+    {
+      "type": "vacance_prolongee",
+      "biens_concernes": ["BIEN-002", "BIEN-007"],
+      "message": "2 biens vacants depuis plus de 60 jours — manque à gagner estimé : 3 980 €/mois"
+    },
+    {
+      "type": "bail_expirant",
+      "biens_concernes": ["BIEN-003"],
+      "message": "Bail commercial expirant en décembre 2026 — renouvellement non acté"
+    },
+    {
+      "type": "rendement_faible",
+      "biens_concernes": ["BIEN-006", "BIEN-010"],
+      "message": "2 biens sous les 6,5% de rendement brut — revue tarifaire à envisager"
+    }
+  ]
+}

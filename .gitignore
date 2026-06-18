@@ -1,0 +1,11 @@
+node_modules
+dist
+.env
+*.local
+.DS_Store
+
+# Outils locaux (préférences éditeur/agent)
+.claude/
+
+# Document de brief fourni — non versionné
+*.pdf

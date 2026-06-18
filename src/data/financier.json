@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "societe": "Groupe Meridian Immobilier",
+    "devise": "EUR",
+    "periode_reference": "2026-06"
+  },
+  "chiffre_affaires": {
+    "mensuel": [
+      { "mois": "2025-07", "montant": 142300 },
+      { "mois": "2025-08", "montant": 138900 },
+      { "mois": "2025-09", "montant": 157400 },
+      { "mois": "2025-10", "montant": 163200 },
+      { "mois": "2025-11", "montant": 155800 },
+      { "mois": "2025-12", "montant": 171500 },
+      { "mois": "2026-01", "montant": 148600 },
+      { "mois": "2026-02", "montant": 152100 },
+      { "mois": "2026-03", "montant": 168900 },
+      { "mois": "2026-04", "montant": 174300 },
+      { "mois": "2026-05", "montant": 161700 },
+      { "mois": "2026-06", "montant": 143200 }
+    ],
+    "objectif_mensuel": 165000
+  },
+  "tresorerie": {
+    "solde_courant": 87450,
+    "solde_il_y_a_30j": 104200,
+    "solde_il_y_a_90j": 93800,
+    "alertes_seuil_bas": 50000
+  },
+  "impayés": [
+    {
+      "id": "IMP-001",
+      "client": "SCI Les Palmiers",
+      "montant": 8400,
+      "echeance": "2026-04-01",
+      "anciennete_jours": 71,
+      "type": "loyer",
+      "relances_effectuees": 3
+    },
+    {
+      "id": "IMP-002",
+      "client": "M. Bertrand Leconte",
+      "montant": 1250,
+      "echeance": "2026-05-15",
+      "anciennete_jours": 27,
+      "type": "loyer",
+      "relances_effectuees": 1
+    },
+    {
+      "id": "IMP-003",
+      "client": "SARL Horizon Invest",
+      "montant": 14600,
+      "echeance": "2026-03-10",
+      "anciennete_jours": 93,
+      "type": "honoraires_vente",
+      "relances_effectuees": 5
+    },
+    {
+      "id": "IMP-004",
+      "client": "Mme Sylviane Moreau",
+      "montant": 890,
+      "echeance": "2026-06-01",
+      "anciennete_jours": 10,
+      "type": "charges_copropriete",
+      "relances_effectuees": 0
+    },
+    {
+      "id": "IMP-005",
+      "client": "SCI Dumont & Fils",
+      "montant": 5300,
+      "echeance": "2026-04-20",
+      "anciennete_jours": 52,
+      "type": "loyer",
+      "relances_effectuees": 2
+    }
+  ],
+  "factures_en_attente": {
+    "total_montant": 38700,
+    "nombre": 12,
+    "echeance_prochaine_30j": 21400
+  }
+}

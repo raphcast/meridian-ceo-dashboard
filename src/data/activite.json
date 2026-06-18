@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "periode": "30 derniers jours",
+    "date_export": "2026-06-11"
+  },
+  "activite_appels": {
+    "total_appels": 187,
+    "appels_entrants": 94,
+    "appels_sortants": 93,
+    "duree_moyenne_minutes": 6.4,
+    "appels_sans_suite": 41,
+    "par_agent": [
+      { "nom": "Camille Ferreira", "pole": "Location", "appels": 64, "rdv_generes": 8 },
+      { "nom": "Thomas Nguyen", "pole": "Transaction", "appels": 71, "rdv_generes": 12 },
+      { "nom": "Isabelle Daret", "pole": "Gestion", "appels": 52, "rdv_generes": 5 }
+    ]
+  },
+  "pipeline_commercial": {
+    "total_prospects_actifs": 34,
+    "par_etape": [
+      { "etape": "Premier contact", "nombre": 11, "valeur_estimee": 0 },
+      { "etape": "Visite planifiée", "nombre": 8, "valeur_estimee": 0 },
+      { "etape": "Offre en cours", "nombre": 7, "valeur_estimee": 312000 },
+      { "etape": "Compromis signé", "nombre": 5, "valeur_estimee": 748000 },
+      { "etape": "Acte final attendu", "nombre": 3, "valeur_estimee": 420000 }
+    ],
+    "valeur_totale_pipeline": 1480000,
+    "taux_conversion_visite_offre": 0.38
+  },
+  "relances_en_retard": [
+    {
+      "id": "REL-001",
+      "prospect": "M. Karim Ouedraogo",
+      "interet": "Achat appartement T3 Saint-Denis",
+      "derniere_interaction": "2026-05-14",
+      "jours_sans_contact": 28,
+      "agent_responsable": "Thomas Nguyen",
+      "priorite": "haute"
+    },
+    {
+      "id": "REL-002",
+      "prospect": "Mme Patricia Colas",
+      "interet": "Mise en location villa Tamarin",
+      "derniere_interaction": "2026-05-21",
+      "jours_sans_contact": 21,
+      "agent_responsable": "Camille Ferreira",
+      "priorite": "haute"
+    },
+    {
+      "id": "REL-003",
+      "prospect": "SCI Lumière Bleue",
+      "interet": "Gestion locative 3 biens",
+      "derniere_interaction": "2026-05-28",
+      "jours_sans_contact": 14,
+      "agent_responsable": "Isabelle Daret",
+      "priorite": "moyenne"
+    },
+    {
+      "id": "REL-004",
+      "prospect": "M. Frédéric Bayle",
+      "interet": "Investissement locatif budget 350k",
+      "derniere_interaction": "2026-06-01",
+      "jours_sans_contact": 10,
+      "agent_responsable": "Thomas Nguyen",
+      "priorite": "moyenne"
+    },
+    {
+      "id": "REL-005",
+      "prospect": "Mme Aline Rivière",
+      "interet": "Vente maison Grand-Baie",
+      "derniere_interaction": "2026-05-05",
+      "jours_sans_contact": 37,
+      "agent_responsable": "Thomas Nguyen",
+      "priorite": "critique"
+    }
+  ],
+  "avis_google": {
+    "note_actuelle": 4.2,
+    "objectif": 4.5,
+    "avis_ce_mois": 3,
+    "avis_en_attente_reponse": 2,
+    "dernier_avis_negatif": {
+      "date": "2026-06-03",
+      "note": 2,
+      "extrait": "Délais de réponse trop longs, dossier de location traîné pendant 3 semaines."
+    }
+  }
+}
