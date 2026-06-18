@@ -9,3 +9,4 @@ dist
 
 # Document de brief fourni — non versionné
 *.pdf
+.vercel
